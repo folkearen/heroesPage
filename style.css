@@ -24,15 +24,18 @@ html {
 .container-card {
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-evenly;
     width: 100%;
 }
 .card {
+    background-color: #F3F3F3;
     border-radius: 22px 22px 0 0;
+    box-shadow: 0px 3px 8px #888888;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 530px;
+    height: 630px;
     width: 400px;
 }
 .like {
@@ -42,7 +45,7 @@ html {
     margin-left: 20px;
 }
 .card-head {
-    height: 46%;
+    height: 40%;
     width: 100%;
 }
 .card-head-1 {
@@ -50,19 +53,56 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.card-head-2 {
+    background-image: url(./img/harBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-head-3 {
+    background-image: url(./img/JOKERbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 22px 22px 0 0;
+}
 .hero {
     border-radius: 50%;
     height: 140px;
     position: absolute;
-    margin-top: 162px;
+    margin-top: 170px;
     width: 140px;
 }
 .description-card {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
+    height: 100px;
+    margin-top: 60px;
 }
+.name {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px; 
+    margin-top: 30px;
+}
+.discription {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px; 
+    margin-top: 10px ;
+    margin-bottom: 54px;
+    padding-left: 50px;
+    padding-right: 50px ;
+}
+.button-container{
+    margin-top: 150px;
+}
+.extend {
+    background-color: #00669F;
+    border: none;
+    color: white;
+    height: 48px;
+    width: 128px;
+}   
 footer {
     background-color: #00669F;
     color: white;
