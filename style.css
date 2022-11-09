@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    font-family:'Inter', sans-serif;
+}
+.mini-banner {
+    background-color:#1CD1B0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 10px;
+}
+.principal-head {
+    background-color: #00669F;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 100px;
+    padding: 20px;    
+}
+.container-card {
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+}
+.card {
+    
+    border-radius: 22px 22px 0 0;
+    height: 530px;
+    position: relative;
+    width: 400px;
+}
+.like {
+    height:30px;
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.card-head {
+    height: 40%;
+    width: 100%;
+}
+.card-head-1 {
+    background-image: url(./img/batBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero {
+    border-radius: 50%;
+    height: 140px;
+    position: absolute;
+    margin-top: 0px;
+    width: 140px;
+}
+footer {
+    background-color: #00669F;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 100px;
+    padding: 10px;    
+}
+
+
+
+
