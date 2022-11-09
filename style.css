@@ -1,9 +1,7 @@
 * {
     box-sizing: border-box;
-
     margin: 0;
     padding: 0;
-    
 }
 html {
     font-family:'Inter', sans-serif;
@@ -30,10 +28,11 @@ html {
     width: 100%;
 }
 .card {
-    
     border-radius: 22px 22px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 530px;
-    position: relative;
     width: 400px;
 }
 .like {
@@ -43,7 +42,7 @@ html {
     margin-left: 20px;
 }
 .card-head {
-    height: 40%;
+    height: 46%;
     width: 100%;
 }
 .card-head-1 {
@@ -55,8 +54,14 @@ html {
     border-radius: 50%;
     height: 140px;
     position: absolute;
-    margin-top: 0px;
+    margin-top: 162px;
     width: 140px;
+}
+.description-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
 }
 footer {
     background-color: #00669F;
